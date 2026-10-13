@@ -1,0 +1,38 @@
+services:
+  pyspark:
+    build: .
+    container_name: pyspark-exercise
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: ["sleep", "infinity"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
